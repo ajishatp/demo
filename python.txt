@@ -1,6 +1,79 @@
+A SIMPLE PYTHON PROGRAM
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
     print(f"{num} is even.")
 else:
     print(f"{num} is odd.")
+
+A PROGRAM THAT INCLUDING ALL THE PYTHON OPERATORS
+# Initialize variables
+a = 10
+b = 3
+x = [1, 2, 3]
+y = [1, 2, 3]
+z = x
+
+print("=== Arithmetic Operators ===")
+print("a + b =", a + b)      # Addition
+print("a - b =", a - b)      # Subtraction
+print("a * b =", a * b)      # Multiplication
+print("a / b =", a / b)      # Division
+print("a % b =", a % b)      # Modulus
+print("a ** b =", a ** b)    # Exponent
+print("a // b =", a // b)    # Floor Division
+print()
+
+print("=== Assignment Operators ===")
+c = 5
+print("c =", c)
+c += 2
+print("c += 2 =>", c)
+c -= 1
+print("c -= 1 =>", c)
+c *= 3
+print("c *= 3 =>", c)
+c /= 2
+print("c /= 2 =>", c)
+c %= 2
+print("c %= 2 =>", c)
+c **= 2
+print("c **= 2 =>", c)
+c //= 2
+print("c //= 2 =>", c)
+print()
+
+print("=== Comparison Operators ===")
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+print()
+
+print("=== Logical Operators ===")
+print("a > 5 and b < 5:", a > 5 and b < 5)
+print("a < 5 or b < 5:", a < 5 or b < 5)
+print("not(a == 10):", not(a == 10))
+print()
+
+print("=== Bitwise Operators ===")
+print("a & b:", a & b)      # Bitwise AND
+print("a | b:", a | b)      # Bitwise OR
+print("a ^ b:", a ^ b)      # Bitwise XOR
+print("~a:", ~a)            # Bitwise NOT
+print("a << 1:", a << 1)    # Left shift
+print("a >> 1:", a >> 1)    # Right shift
+print()
+
+print("=== Special Operators ===")
+print("-- Identity Operators --")
+print("x is z:", x is z)         # True: same object
+print("x is y:", x is y)         # False: same content, different object
+print("x is not y:", x is not y)
+print()
+
+print("-- Membership Operators --")
+print("2 in x:", 2 in x)
+print("5 not in x:", 5 not in x)
