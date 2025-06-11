@@ -1,0 +1,17 @@
+a = 10  # In binary: 1010
+b = 4   # In binary: 0100
+
+# XOR Operation
+
+xor_result = a ^ b
+print(f"{a} ^ {b} = {xor_result}")  # 10 ^ 4 = 14 (Binary: 1010 ^ 0100 = 1110)
+
+# Left Shift
+
+left_shift = a << 1
+print(f"{a} << 1 = {left_shift}")   # 10 << 1 = 20 (Binary: 1010 -> 10100)
+
+# Right Shift
+
+right_shift = a >> 1
+print(f"{a} >> 1 = {right_shift}")  # 10 >> 1 = 5 (Binary: 1010 -> 0101)
