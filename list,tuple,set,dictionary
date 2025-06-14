@@ -1,0 +1,15 @@
+# List example
+fruits = ["apple", "banana", "mango"]
+print("List:", fruits)
+
+# Tuple example
+colors = ("red", "green", "blue")
+print("Tuple:", colors)
+
+# Set example
+numbers = {1, 2, 3, 2, 1}
+print("Set (no duplicates):", numbers)
+
+# Dictionary example
+student = {"name": "John", "age": 20}
+print("Dictionary:", student)
